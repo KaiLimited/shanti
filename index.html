@@ -1,0 +1,40 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>iSecure Quantum RL</title>
+</head>
+<body>
+    <div class="container">
+        <h1>iSecure Quantum Reinforcement Learning</h1>
+
+       <div id="output"></div>
+        
+        <!-- Form for Testing AI Models -->
+        <form id="aiTestingForm">
+            <label for="modelName">Model Name:</label>
+            <input type="text" id="modelName" name="modelName" required>
+
+            <label for="parameter1">Parameter 1:</label>
+            <input type="text" id="parameter1" name="parameter1" required>
+
+            <label for="parameter2">Parameter 2:</label>
+            <input type="text" id="parameter2" name="parameter2" required>
+
+            <button type="button" onclick="testAIModel()">Test AI Model</button>
+        </form>
+      </div>
+  
+        <div class="controls">
+            <button onclick="startTraining()">Start Training</button>
+            <button onclick="stopTraining()">Stop Training</button>
+            <button onclick="getCasualties()">Get Casualties</button>
+        </div>
+       
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
