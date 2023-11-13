@@ -7,7 +7,7 @@ Imagine shanti as a superhero robot that learns to protect us from bad things by
 
 ---
 
-# Technical Document: Reinforcement Learning for Materials Adaptability
+# Technical Document
 
 ## 1. Introduction
 
